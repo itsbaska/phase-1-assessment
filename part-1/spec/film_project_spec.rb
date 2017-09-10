@@ -46,7 +46,7 @@ RSpec.describe FilmProject do
     end
   end
 
-  describe 'working with the cast', { pending: true } do
+  describe 'working with the cast', { pending: false } do
     describe '#remaining_budget' do
       it 'calculates the amount of casting budget left after paying the currect cast' do
         actor_1 = Actor.new(salary: 1_000_000)
