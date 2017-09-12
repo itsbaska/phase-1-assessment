@@ -1,4 +1,6 @@
 module Awardable
+  attr_writer :awards, :award_nominations
+
   def awards
     @awards ||= []
   end

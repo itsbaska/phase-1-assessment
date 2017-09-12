@@ -1,4 +1,6 @@
 module Ticketable
+  attr_writer :tickets
+
   def tickets
     @tickets ||= []
   end

@@ -5,5 +5,4 @@ class StageMusical < Show
     super
     @composer = args[:composer]
   end
-
 end

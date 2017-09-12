@@ -5,6 +5,4 @@ class Director < EntertainmentPerson
     super
     @directed_shows = args.fetch(:directed_shows, [])
   end
-
-
 end
